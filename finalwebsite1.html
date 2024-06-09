@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cockpit Fighters and Backyard Farmers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/scripts.js"></script>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .cock-figure {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .cock-img {
+            max-width: 100%;
+            height: auto;
+        }
+        .colors-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .colors-gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cockpit Fighters and Backyard Farmers</h1>
+        <nav>
+            <ul>
+                <li><button data-section="about">About</button></li>
+                <li><button data-section="kinds">Kinds of Cocks</button></li>
+                <li><button data-section="colors">Colors</button></li>
+                <li><button data-section="contact">Contact</button></li>
+                <li><button data-section="additional-info">Additional information</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>Welcome to our website dedicated to cockpit fighters and backyard farmers. Here you will find information on different kinds of cocks and their colors, suitable for both professional and hobbyist breeders.</p>
+        <figure>
+            <img src="arena.webp" alt="arena">
+            </figure>
+           
+    </section>
+    
+    <section id="kinds" class="content-section">
+        <h2>Best Fighting Cocks</h2>
+        <div class="gallery1">
+            <figure class="cock-figure">
+                <img src="American.jpg" alt="American Gamecock" class="cock-img" data-description="american-gamecock">
+                <div id="american-gamecock" class="description">
+                    <h3>American Gamecock</h3>
+                    Origin:	United States<br>
+Purpose:	Show, meat farming, fighting<br>
+Adult Weight:	2.5–5 pounds (1.1–2.3 kg)<br>
+Lifespan:	8–15 years<br>
+Temperament:	Noisy, territorial, assertive<br>
+Aggressiveness:	4<br>
+Introducing the American Game — often referred to as the Roundhead — is another species of fighting roosters that has made a name for themselves among American fighting breeds.
+
+Developed in New Jersey during the 19th century, these fowls have evolved from their fighting roots to become a popular choice for ornamental purposes.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="asil.jpg" alt="Asil" class="cock-img" data-description="asil">
+                <div id="asil" class="description">
+                    <h3>Asil</h3>
+                    <p>Origin: India<br>
+                    Purpose: Meat farming, ornamental, fighting<br>
+                    Adult Weight: 4–5.5 pounds (1.8–2.5 kg)<br>
+                    Lifespan: 8–10 years<br>
+                    Temperament: Watchful, very fierce<br>
+                    Aggressiveness: 4.5<br>
+                    The Asil is a hardy breed known for its strength and resilience. It has a rich history in cockfighting...</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Sid-Taylor.jpg" alt="Sid-Taylor" class="cock-img" data-description="Sid-Taylor">
+                <div id="Sid-Taylor" class="description">
+                    <h3>Sid-Taylor</h3>
+                    Origin:	United States<br>
+Purpose:	Exhibition, fighting<br>
+Adult Weight:	Unknown<br>
+Lifespan:	Unknown<br>
+Temperament:	Tough, courageous, confident<br>
+Aggressiveness:	3<br>
+The Sid Taylor gamefowl comes from the United States, where it has been produced through crossbreeding between rooster breeds, notably the Shamo and Asil.
+
+Nowadays, these fighting roosters are primarily shown in exhibitions, highlighting their unique physical attributes and competitive spirit.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Whitehackle.jpg" alt="Whitehackle" class="cock-img" data-description="Whitehackle">
+                <div id="Whitehackle" class="description">
+                    <h3>Whitehackle</h3>
+                    Origin:	Asia<br>
+Purpose:	Fighting, ornamental<br>
+Adult Weight:	4–6 pounds (1.8–2.7 kg)<br>
+Lifespan:	5–8 years<br>
+Temperament:	Flighty, aggressive, tameable<br>
+Aggressiveness:	3.5<br>
+The Whitehackle gamefowl, known for its remarkable resilience, is believed to trace its roots back to Asia. Today, these roosters stand out in poultry exhibitions for their distinct characteristics and historical value.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Spanish.jpg" alt="Spanish" class="cock-img" data-description="Spanish">
+                <div id="Spanish" class="description">
+                    <h3>Spanish</h3>
+                    Origin:	Unknown<br>
+Purpose:	Companionship, meat farming, fighting<br>
+Adult Weight:	5–8 pounds (2.3–3.6 kg)<br>
+Lifespan:	Unknown<br>
+Temperament:	Dominant, quick-witted<br>
+Aggressiveness:	3.5<br>
+The Spanish gamefowl, with origins shrouded in mystery, is believed to have been introduced as far back as ancient Greece.
+
+Despite the uncertainty surrounding their history, as per the Poultry Club of South Africa (PCSA), these roosters now serve as meat providers and cherished companions.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Thai game.jpg" alt="Thai game" class="cock-img" data-description="Thai game">
+                <div id="Thai game" class="description">
+                    <h3>Thai game</h3>
+                    Origin:	Thailand<br>
+Purpose:	Meat farming, show, fighting, companionship<br>
+Adult Weight:	5–7 pounds (2.3–3.2 kg)<br>
+Lifespan:	Unknown<br>
+Temperament:	Agile, lively, highly territorial<br>
+Aggressiveness:	3.5<br>
+The Thai Game, originating from Thailand, is a breed that is often misidentified as the Shamo breed. In the past, they were prized as one of the best fighting roosters in the world.
+
+Nowadays, Thai Games are utilized for both practical and ornamental purposes, showcasing their versatile value..</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Hatch Twist.jpg" alt="Hatch twich" class="cock-img" data-description="Hatch twich">
+                <div id="Hatch twich" class="description">
+                    <h3>Hatch twich</h3>
+                    Origin:	United States<br>
+Purpose:	Fighting, exhibition, show<br>
+Adult Weight:	Unknown<br>
+Lifespan:	Unknown<br>
+Temperament:	Smart, brave, energetic<br>
+Aggressiveness:	4<br>
+The Hatch Twist is a refined variant of the well-known Hatch breed, famed for its increased lethality compared to its predecessor.
+
+While their origins are steeped in the world of cockfighting, these days, you are more likely to find Hatch Twist roosters on display at poultry shows and exhibitions.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Hatch.jpg" alt="Hatch" class="cock-img" data-description="Hatch">
+                <div id="Hatch" class="description">
+                    <h3>Hatch</h3>
+                    Origin:	United States<br>
+Purpose:	Exhibition, fighting<br>
+Adult Weight:	4–6 pounds (1.8–2.7 kg)<br>
+Lifespan:	Unknown<br>
+Temperament:	Fearless, loud, active<br>
+Aggressiveness:	4<br>
+The Hatch rooster originated in the United States in the late 18th century, and it quickly established a solid reputation as one of the top-notch bloodlines in the cockfighting world.
+
+Today, they are more commonly found in exhibition environments, showcasing their vibrant appearance and dynamic behavior to chicken enthusiasts.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Sweater.jpg" alt="Sweater" class="cock-img" data-description="Sweater">
+                <div id="Sweater" class="description">
+                    <h3>Sweater</h3>
+                    Origin:	United States<br>
+Purpose:	Fighting, show, exhibition<br>
+Adult Weight:	3–6 pounds (1.4–2.7 kg)<br>
+Lifespan:	Unknown<br>
+Temperament:	Combative, observant<br>
+Aggressiveness:	4<br>
+The Sweater, named after its developer Sweater McGinnis, is a testament to the refinement in rooster breeding.
+
+With contributions from Carol Nesmith, this breed became highly esteemed in the fiercest cockfighting arenas across Mexico, South America, and the Philippines.
+
+Despite their initial repute in cockfighting, Sweater roosters are now predominantly seen in shows and exhibitions, captivating audiences with their distinctive appeal.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Peruvian.jpg" alt="Peruvian" class="cock-img" data-description="Peruvian">
+                <div id="Peruvian" class="description">
+                    <h3>Peruvian</h3>
+                    Origin:	Europe<br>
+Purpose:	Fighting, exhibition, show<br>
+Adult Weight:	9–11 pounds (4.1–5 kg)<br>
+Lifespan:	Unknown<br>
+Temperament:	Highly assertive, vigilant<br>
+Aggressiveness:	4<br>
+Originating from the crossbreeding of Old English Games and Oriental fowls, the Peruvian breed has become one of the best fighting birds in Europe since its development in the 19th century.
+
+Besides their fighting expertise, Peruvians are now revered for their looks, gaining popularity in exhibitions and shows.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Cornish.jpg" alt="Cornish" class="cock-img" data-description="Cornish">
+                <div id="Cornish" class="description">
+                    <h3>Cornish</h3>
+                    Origin:	England<br>
+                    Purpose:	Fighting, meat farming, companionship<br>
+                    Adult Weight:	8–10.5 pounds (3.6–4.8 kg)<br>
+                    Lifespan:	5–8 years<br>
+                    Temperament:	Active, highly aggressive<br>
+                    Aggressiveness:	4<br>
+                    Hailing from England and otherwise known as the Indian Game, the Cornish brings a unique charm to the world of gamefowls. They are one of the oldest breeds in existence, and their history dates back to the 17th century.
+                    
+                    Initially produced for their superior fighting skills, Cornishes have evolved into a favorite meat-farming breed, providing poultry with a distinguishable flavor profile.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Brown red.jpg" alt="Asil" class="cock-img" data-description="Brown red">
+                <div id="Brown red" class="description">
+                    <h3>Brown red</h3>
+                    Origin:	United States<br>
+Purpose:	Meat farming, companionship, fighting<br>
+Adult Weight:	5–7 pounds (2.3–3.2 kg)<br>
+Lifespan:	Unknown<br>
+Temperament:	Watchful, forceful<br>
+Aggressiveness:	4<br>
+Rooted in the rich line of chickens from Northern Ireland and brought to life in Alabama during the 1800s, the Brown Red is a gamefowl that carries its historical lineage with pride.
+
+Today, the breed has gained recognition not only for their fight prowess but also for their contribution to meat and egg production.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Kelso.jpg" alt="Kelso" class="cock-img" data-description="Kelso">
+                <div id="Kelso" class="description">
+                    <h3>Kelso</h3>
+                    Origin:	United States<br>
+Purpose:	Ornamental, fighting, companionship<br>
+Adult Weight:	6–8 pounds (2.7–3.6 kg)<br>
+Lifespan:	Unknown<br>
+Temperament:	Intelligent, bold<br>
+Aggressiveness:	4<br>
+Among the different varieties of the American Gamefowl, the Kelso stands out. This type, developed by Walter Kelso, showcases an impressive combination of intelligence and determination.
+
+Though initially known for their fighting prowess, Kelso roosters are now popular for their ornamental appeal and companionship value.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Modern game.jpg" alt="Asil" class="cock-img" data-description="Modern game">
+                <div id="Modern game" class="description">
+                    <h3>Modern game</h3>
+                    Origin:	Great Britain
+Purpose:	Ornamental, show, fighting<br>
+Adult Weight:	4.5–6 pounds (2–2.7 kg)<br>
+Lifespan:	3–7 years<br>
+Temperament:	Curious, alert<br>
+Aggressiveness:	4<br>
+Emerging as a result of crossbreeding Old English Game and Malay chickens, the Modern Game is a fighting breed that seamlessly bridges history and aesthetics.
+
+While they carry the legacy of their combative lineage, they have now carved a place for themselves in shows and exhibitions, celebrated for their distinct visual appeal.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="Malay.jpg" alt="Malay" class="cock-img" data-description="Malay">
+                <div id="Malay" class="description">
+                    <h3>Malay</h3>
+                    Origin:	Southeast Asia<br>
+Purpose:	Ornamental, fighting<br>
+Adult Weight:	7–11 pounds (3.2–5 kg)<br>
+Lifespan:	5–8 years<br>
+Temperament:	Energetic, flighty, feisty<br>
+Aggressiveness:	5<br>
+Matching the aggressiveness of the Old English Game, the Malay breed secures its position as one of the best fighting roosters. It has a strong body and an even stronger personality.
+
+Once a common fighting bird, these chickens are now often seen in poultry shows and kept as beloved pets, showcasing their special features and behaviors.</p>
+                </div>
+            </figure>
+            <figure class="cock-figure">
+                <img src="old.jpg" alt="Old English Game" class="cock-img" data-description="old-english-game">
+                <div id="old-english-game" class="description">
+                    <h3>Old English Game</h3>
+                    <p>Origin: England<br>
+                    Purpose: Meat farming, exhibition, fighting<br>
+                    Adult Weight: 3–5.5 pounds (1.4–2.5 kg)<br>
+                    Lifespan: 10–15 years<br>
+                    Temperament: Territorial, loud<br>
+                    Aggressiveness: 5<br>
+                    First on this list is the Old English Game, one of the best fighting birds due to its aggressive behavior, which is rated at a five, and is also the oldest fighting breed known...</p>
+                </div>
+            </figure>
+        </div>
+    </section>
+    
+    <section id="colors" class="content-section">
+        <h2>Colors of Cocks</h2>
+        <div class="colors-gallery">
+            <figure>
+                <img src="Kelso.jpg" alt="Red and Orange Cock">
+                <img src="Hatch.jpg" alt="Red and Orange Cock">
+                <img src="Sweater.jpg" alt="Red and Orange Cock">
+                <figcaption>Red and Orange Cock</figcaption>
+            </figure>
+            <figure>
+                <img src="Blue1.jpg" alt="Blue and Green Cock">
+                <img src="Blue.jpg" alt="Blue and Green Cock">
+                <img src="Blue2.jpg" alt="Blue and Green Cock">
+                <img src="Blue3.jpg" alt="Blue and Green Cock">
+                <figcaption>Blue and Green Cock</figcaption>
+            </figure>
+            <figure>
+                <img src="Golds1.jpg" alt="Yellow and Gold Cock">
+                <img src="Golds2.jpg" alt="Yellow and Gold Cock">
+                <img src="Golds.jpg" alt="Yellow and Gold Cock">
+                <img src="yellow.jpg" alt="Yellow and Gold Cock">
+                <figcaption>Yellow and Gold Cock</figcaption>
+            </figure>
+            <figure>
+                <img src="White.jpg" alt="Black and White Cock">
+                <img src="Black.jpg" alt="Black and White Cock">
+                <img src="black1.jpg" alt="Black and White Cock">
+                <img src="black2.jpg" alt="Black and White Cock">
+                <figcaption>Black and White Cock</figcaption>
+            </figure>
+            <figure>
+                <img src="Patterned1.jpg" alt="Patterned Feathers Cock">
+                <img src="Patterend.jpg" alt="Patterned Feathers Cock">
+                <img src="Patterned2.jpg" alt="Patterned Feathers Cock">
+                <img src="Patterned3.jpg" alt="Patterned Feathers Cock">
+                <figcaption>Patterned Feathers Cock</figcaption>
+            </figure>
+            <!-- Add more figures here as needed -->
+        </div>
+        <section>
+            <h3>Red and Orange</h3>
+            <p>Shades of red and orange are among the most common and striking colors seen in fighting cocks. From bright cherry reds to fiery oranges, these colors evoke passion, energy, and vitality in the ring.</p>
+        </section>
+        <section>
+            <h3>Blues and Greens</h3>
+            <p>Blue and green hues are prized for their rarity and elegance in fighting cocks. Whether it’s the deep azure of a sapphire or the shimmering emerald of a jade, these colors exude sophistication and grace.</p>
+        </section>
+        <section>
+            <h3>Yellows and Golds</h3>
+            <p>Yellow and gold tones convey warmth, prosperity, and success in fighting cocks. From golden sunsets to radiant daffodils, these colors symbolize abundance and achievement in the ring.</p>
+        </section>
+        <section>
+            <h3>Blacks and Whites</h3>
+            <p>Black and white feathers add drama and contrast to the plumage of fighting cocks. Whether it’s the sleek ebony of a raven or the pure alabaster of a swan, these colors command attention and respect in the ring.</p>
+        </section>
+        <section>
+            <h3>Patterned Feathers</h3>
+            <p>Some fighting cocks display intricate patterns and markings on their feathers, adding visual interest and complexity to their appearance. From stripes and spots to bars and speckles, these patterns create a mesmerizing tapestry of colors in the ring.</p>
+        </section>
+    </section>
+    
+    <section id="additional-info" class="content-section">
+        <h2>Which Rooster Is Best for Fighting?</h2>
+        <p>In terms of aggression and fighting prowess, Old English Game and Malay roosters often top the charts, making them among the best fighting rooster breeds.</p>
+        <p>To be specific, their bold and competitive nature causes them to stand out in the arena.</p>
+        <p>The Asil, another formidable breed, also ranks highly with a notable level of aggressiveness at 4.5. It’s a bit more reserved than those two breeds, but it is still incredibly capable of putting up a fight.</p>
+        
+        <h2>Is Rooster Fighting Legal in the Philippines?</h2>
+        <p>Cockfighting in the Philippines is both legal and illegal, depending on where the game is held and to what level. The “Cockfighting Law of 1974” under former President Ferdinand E. Marcos regulates the game in the whole country, and since then, it has never been amended.</p>
+
+        <h2>When is cockfighting legal?</h2>
+        <p>As stated above, cockfighting is legal only if it is held in licensed cockpits with a license to operate during fiestas issued by Mayors.</p>
+
+        <h2>When is cockfighting is ellegal?</h2>
+        <p>Everyone knows that cockfighting is everywhere in the Philippines, and only those held in licensed cockpits and stadiums are legal. Most pada or look (local cockfights) held in Barangay fiesta are illegal, but because they are sometimes controlled by the local mayor or an influential Brgy Captain, they became allowed. Local cockfighting activities are sometimes becoming the source of local politicians’ corruption. Whoever controls cockfighting activities in a single municipality or city is like sitting in millions of pesos, and this is why cockfighting is always a hot topic.</p>
+        
+        <h2>Who invented cockfighting?</h2>
+        <p>The sport was popular in ancient times in India, China, Persia, and other Eastern countries. It was introduced into Greece in the time of Themistocles (c. 524–460 bc) and spread throughout Asia Minor and Sicily.</p>
+        
+        <h2>Why is cockfighting very popular in the Philippines?</h2>
+        <p>In 1974, the Cockfighting Law was passed. It acknowledged sabong as “a popular, traditional, and customary form of recreation and entertainment among Filipinos” that should be “a vehicle for the preservation and perpetuation of native Filipino heritage and, thereby, enhance our national identity.”</p>
+
+
+        <h2>Is It Illegal to Raise Fighting Roosters?</h2>
+        <p>Although cockfighting is illegal, raising a fighting rooster is not against the law.</p>
+        <p>Ultimately, the goal should be to keep the battle roosters healthy and well-cared for. This respectful approach helps preserve these exceptional breeds while abiding by the law.</p>
+        <p>Also, note that many fowls on this list of fighting cock breeds are maintained for purposes other than cockfighting, such as exhibitions, shows, and even as meat sources.</p>
+        
+        <h2>What Is the Most Aggressive Game Rooster?</h2>
+        <p>With regard to the most aggressive game roosters, Malay and Old English Game chickens often top the list. They have been recognized as two of the best fighting rooster breeds due to their extraordinary feisty nature.</p>
+        
+        <h2>What Are the Most Expensive Fighting Roosters?</h2>
+        <p>When it comes to rooster costs, Peruvian roosters are among the most expensive breeds. They are often recognized for their supernatural fighting traits and have become a sought-after species among enthusiasts.</p>
+        <p>To be exact, the price of these roosters can vary dramatically, typically ranging from $600 to a staggering $5,000.</p>
+    </section>
+    
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get in touch, please email us at <a href="mailto:hermeldasigan@gmail.com">hermeldasigan@gmail.com</a> and <a href="mailto:datukyle557@gmail.com">datukyle557@gmail.com</a>.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Cockpit Fighters and Backyard Farmers</p>
+    </footer>
+</body>
+</html>
